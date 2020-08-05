@@ -1,0 +1,17 @@
+name: DeathSwap
+version: ${project.version}
+main: dev.aquild.deathswap.Deathswap
+api-version: 1.13
+authors: [Aquild]
+description: Easy Death Swap Plugin by Aquild
+commands:
+  startscenario:
+    description: Start DeathSwap Scenario
+    usage: /startscenario [swapdelayseconds] [swapwarningseconds]
+    permission: deathswap.gamemaster
+    permission-message: You don't have the necessry permission to run this command.
+  stopscenario:
+    description: Stop DeathSwap Scenario
+    usage: /stopscenario
+    permission: deathswap.gamemaster
+    permission-message: You don't have the necessry permission to run this command.
